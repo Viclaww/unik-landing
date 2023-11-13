@@ -3,7 +3,7 @@ import design from "../assets/Creative-design.png";
 import webDev from "../assets/webDev.png";
 const Course = () => {
   return (
-    <div className="text-white font-Monstserrat px-20 py-24 sm:py-10 mt-[20vh] sm:mt-[20vh] w-full flex flex-col justify-around h-auto">
+    <div className="text-white font-Monstserrat px-20 sm:px-10 py-24 sm:py-10 mt-[15vh] sm:mt-[5vh] w-full flex flex-col justify-around h-auto">
       <div className="creative-design px-3 flex justify-between w-full flex-row md:flex-col-reverse sm:flex-col-reverse items-center">
         <div className=" flex flex-col md: justify-between  ">
           <h3 className="text-[66px] md:text-4xl sm:text-4xl font-extralight py-5 ">

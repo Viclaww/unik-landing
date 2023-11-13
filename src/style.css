@@ -15,7 +15,7 @@
     @apply bg-[#151515];
   }
   .top-nav {
-    @apply text-white flex flex-row  w-full justify-between px-20 py-4 items-center sticky top-0 backdrop-blur-md h-[10vh];
+    @apply text-white flex flex-row  w-full justify-between px-20 sm:px-10 py-4 items-center sticky top-0 backdrop-blur-md h-[10vh];
   }
   .side-nav {
     @apply w-2/3;
@@ -29,7 +29,7 @@
   }
   .creative-fee,
   .web-fee {
-    @apply mt-10 flex flex-col mx-4 px-8  h-auto justify-between py-10 w-[380px]  sm:w-full rounded-2xl text-left;
+    @apply mt-10 flex flex-col mx-4 px-8 sm:px-4  h-auto justify-between py-10 w-[380px]  sm:w-full rounded-2xl text-left;
   }
   .price {
     @apply flex w-full justify-around items-center py-5;

@@ -6,12 +6,43 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navlinks = () => {
   return (
     <>
-      <NavLink>Home</NavLink>
-      <NavLink>About Us</NavLink>
-      <NavLink>About CoM</NavLink>
-      <NavLink>Map</NavLink>
-      <NavLink>FAQ's</NavLink>
-      <NavLink>Career</NavLink>
+      <NavLink
+        to="/"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        Home
+      </NavLink>
+      <NavLink
+        to="#courses"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        Programs
+      </NavLink>
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        About Us
+      </NavLink>
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        Fees
+      </NavLink>
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        FAQ's
+      </NavLink>
     </>
   );
 };
@@ -24,7 +55,7 @@ const Navbar = () => {
     <>
       <div className="top-nav  ">
         <img src={logo} className="w-10 h-10" alt="" />
-        <div className="flex w-1/3 md:w-1/2 sm:hidden  justify-between">
+        <div className=" top-nav-links flex w-1/3 md:w-1/2 sm:hidden  justify-between">
           <Navlinks />
         </div>
         <div

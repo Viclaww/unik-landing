@@ -6,11 +6,14 @@ const WhyEnroll = () => {
       <div className="text-white w-4/5 md:w-full sm:w-full p-10 ">
         <h3 className=" text-5xl mb-5">Why Enroll with Us?</h3>
         <p>
-          Master the latest web development and graphic design tools and
-          technologies. We offer comprehensive training on the latest web
-          development and graphic design tools and technologies. This includes
-          popular tools like HTML, CSS, JavaScript Frameworks/Libraries ,
-          Photoshop, Illustrator, and more.
+          Enroll with us for an unparalleled learning experience in graphic
+          design and web development. Benefit from expert guidance, a
+          cutting-edge curriculum, and interactive learning that allows you to
+          progress at your own pace. Gain practical experience through hands-on
+          projects, connect with a supportive community, and receive
+          comprehensive career development resources. Our flexible schedules
+          cater to diverse lifestyles, ensuring that you acquire the skills
+          needed to thrive in the ever-evolving tech landscape.
         </p>
       </div>
       <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] flex w-[88px] place-content-center rounded-xl items-center h-[50px] mb-5 p-[1px] ">

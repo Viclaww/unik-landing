@@ -17,6 +17,10 @@
   .top-nav {
     @apply text-white flex flex-row  w-full justify-between px-20 sm:px-10 py-4 items-center sticky top-0 backdrop-blur-md h-[10vh];
   }
+  /* .top-nav-links a.active {
+    @apply p-1;
+    border-bottom: white solid 1px;
+  } */
   .side-nav {
     @apply w-2/3;
   }
@@ -24,6 +28,7 @@
   .side-nav a {
     @apply m-5;
   }
+
   hr {
     @apply bg-white w-full;
   }
@@ -35,7 +40,7 @@
     @apply flex w-full justify-around items-center py-5;
   }
   .course-name {
-    @apply text-xl w-5/6 p-1 py-2  rounded-xl font-extralight sm:w-full;
+    @apply text-xl w-5/6 p-1 py-2  rounded-xl font-extralight sm:w-4/5 text-center;
   }
   .discount {
     @apply text-4xl font-bold;

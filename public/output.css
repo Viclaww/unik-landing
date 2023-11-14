@@ -566,6 +566,11 @@ body {
   }
 }
 
+/* .top-nav-links a.active {
+    @apply p-1;
+    border-bottom: white solid 1px;
+  } */
+
 .side-nav {
   width: 66.666667%;
 }
@@ -622,6 +627,7 @@ hr {
   padding: 0.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 200;
@@ -629,7 +635,7 @@ hr {
 
 @media (min-width: 100px) and (max-width: 767px) {
   .course-name {
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -722,6 +728,11 @@ hr {
   margin-right: 0.5rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -734,6 +745,10 @@ hr {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-3 {
@@ -984,11 +999,6 @@ hr {
   padding: 1px;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -1022,11 +1032,6 @@ hr {
 .px-\[10vw\] {
   padding-left: 10vw;
   padding-right: 10vw;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-10 {
@@ -1074,7 +1079,7 @@ hr {
 }
 
 .font-Coiny {
-  font-family: Coiny, sans;
+  font-family: Coiny, sans-serif;
 }
 
 .font-Monstserrat {
@@ -1152,6 +1157,14 @@ hr {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1172,6 +1185,10 @@ hr {
 @media (min-width: 100px) and (max-width: 767px) {
   .sm\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .sm\:mt-12 {
+    margin-top: 3rem;
   }
 
   .sm\:mt-\[20vh\] {
@@ -1221,6 +1238,11 @@ hr {
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .sm\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .sm\:px-2 {

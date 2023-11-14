@@ -12,7 +12,7 @@ export default {
     extend: {
       fontFamily: {
         Monstserrat: ["Monstserrat", "sans-serif"],
-        Coiny: ["Coiny", "sans"],
+        Coiny: ["Coiny", "sans-serif"],
       },
       listStyleImage: {
         checkmark: 'url("/assets/Subtract.png")',

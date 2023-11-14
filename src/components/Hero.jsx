@@ -8,14 +8,21 @@ const Hero = () => {
           Master the Latest Skills with{" "}
           <span className="font-extrabold">Expert Guidance</span>
         </h2>
-        <p className="opacity-70">
-          Learn the skills you need to succeed in web development and graphic
-          design from industry experts.
+        <p className="opacity-70 my-3">
+          Acquire the essential skills required to thrive in continually
+          evolving tech spheres from industry experts.
         </p>
-        <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full  ">
-          <button className="bg-[#151515] px-2 py-1 rounded-full">
-            Enroll Now
-          </button>
+        <div className="flex w-full relative -z-10 justify-between">
+          <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
+            <button className="bg-[#151515] px-6 py-3 rounded-full">
+              Enroll Now
+            </button>
+          </div>
+          <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
+            <button className="bg-[#151515] px-6 py-3 rounded-full">
+              Download our success story
+            </button>
+          </div>
         </div>
       </div>
 

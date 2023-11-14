@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyEnroll = () => {
   return (
-    <div className="flex font-Monstserrat items-center flex-wrap justify-between  w-full py-20 px-24 sm:px-2 md:mt-[30vh]  sm:mt-[25vh] md:p-10 md: bg-[#D00FFC] md:flex-col sm:flex-col">
+    <div className="flex font-Monstserrat items-center flex-wrap justify-between  w-full py-20 px-24 sm:px-2 md:mt-[10vh]  sm:mt-[30vh] md:p-10 md: bg-[#D00FFC] md:flex-col sm:flex-col">
       <div className="text-white w-4/5 md:w-full sm:w-full p-10 ">
         <h3 className=" text-5xl mb-5">Why Enroll with Us?</h3>
         <p>

@@ -6,7 +6,7 @@ const TuitionFee = () => {
     listStylePosition: "inside",
   };
   return (
-    <div className=" text-white font-Monstserrat py-[15vh] px-32 sm:px-12 flex flex-col text-center justify-center items-center">
+    <div className=" text-white font-Monstserrat py-[15vh] px-32 sm:px-10 flex flex-col text-center justify-center items-center">
       <h3 className=" text-4xl py-4 ">Explore our Tuition Fee</h3>
       <p className="opacity-80 py-3 w-2/3 sm:w-full">
         This game has six unique terrains, each with some exciting new features.

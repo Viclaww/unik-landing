@@ -14,12 +14,12 @@ const Hero = () => {
         </p>
         <div className="flex w-full relative -z-10 justify-between text-xs">
           <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
-            <button className="bg-[#151515] px-6 py-3 rounded-full">
+            <button className="bg-[#151515] px-4 py-2 rounded-full">
               Enroll Now
             </button>
           </div>
           <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
-            <button className="bg-[#151515] px-6 py-3 rounded-full">
+            <button className="bg-[#151515] px-4 py-2 rounded-full">
               Download our success story
             </button>
           </div>

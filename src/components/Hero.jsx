@@ -12,7 +12,7 @@ const Hero = () => {
           Acquire the essential skills required to thrive in continually
           evolving tech spheres from industry experts.
         </p>
-        <div className="flex w-full relative -z-10 justify-between">
+        <div className="flex w-full relative -z-10 justify-between text-xs">
           <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
             <button className="bg-[#151515] px-6 py-3 rounded-full">
               Enroll Now

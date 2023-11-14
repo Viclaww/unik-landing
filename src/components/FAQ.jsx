@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const FAQ = () => {
   return (
-    <div className="py-[20vh] px-[10vw]  text-4xl bg-white">
+    <div id="faqs" className="py-[20vh] px-[10vw]  text-4xl bg-white">
       <h3 className="py-5 font-Coiny">FAQ</h3>
       <div>
         <Accordion>

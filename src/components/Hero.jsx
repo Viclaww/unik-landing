@@ -12,16 +12,23 @@ const Hero = () => {
           Acquire the essential skills required to thrive in continually
           evolving tech spheres from industry experts.
         </p>
-        <div className="flex w-full sm:flex-col relative -z-10 justify-between text-xs">
-          <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
-            <button className="bg-[#151515] px-6 py-3 rounded-full">
+        <div className="flex w-full sm:flex-col sm:w-auto relative justify-between text-xs">
+          <div className="bg-gradient-to-r  from-[#D00FFC] to-[#3A7DFF] cursor-pointer flex justify-center p-1 sm:w-7/12 rounded-full mt-12 ">
+            <a
+              href="#fees"
+              className="bg-[#151515]  hover:opacity-80 px-6 py-3 rounded-full cursor-pointer"
+            >
               Enroll Now
-            </button>
+            </a>
           </div>
-          <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
-            <button className="bg-[#151515] px-6 py-3 rounded-full">
+          <div className="bg-gradient-to-r flex from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1tHj8bqeYigyx5Wg2qPo5CERHXnUUBgfs/view?usp=drive_link"
+              className="bg-[#151515] px-6 py-3 rounded-full cursor-pointer hover:opacity-80"
+            >
               Download our success story
-            </button>
+            </a>
           </div>
         </div>
       </div>

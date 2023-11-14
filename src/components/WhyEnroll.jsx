@@ -17,9 +17,13 @@ const WhyEnroll = () => {
         </p>
       </div>
       <div className="bg-gradient-to-r from-[#D00FFC] to-[#3A7DFF] flex w-[88px] place-content-center rounded-xl items-center h-[50px] mb-5 p-[1px] ">
-        <button className="bg-[#d00ffc] text-white p-2  rounded-xl">
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1tHj8bqeYigyx5Wg2qPo5CERHXnUUBgfs/view?usp=drive_link"
+          className="bg-[#d00ffc] text-white p-2  rounded-xl"
+        >
           About us
-        </button>
+        </a>
       </div>
       <hr />
     </div>

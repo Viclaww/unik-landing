@@ -6,12 +6,16 @@ const TuitionFee = () => {
     listStylePosition: "inside",
   };
   return (
-    <div className=" text-white font-Monstserrat py-[15vh] px-32 sm:px-10 flex flex-col text-center justify-center items-center">
+    <div
+      id="fees"
+      className="  text-white font-Monstserrat py-[15vh] px-32 sm:px-10 flex flex-col text-center justify-center items-center"
+    >
       <h3 className=" text-4xl py-4 ">Explore our Tuition Fee</h3>
       <p className="opacity-80 py-3 w-2/3 sm:w-full">
-        This game has six unique terrains, each with some exciting new features.
-        Every terrain has its unique qualities and challenges to make your game
-        more and more interesting.
+        We strive to make quality education in graphic design and web
+        development accessible to all, offering value for your investment. No
+        hidden costs or surprises—just a clear pathway to acquiring valuable
+        skills that will propel your career.
       </p>
       <div className="flex sm:flex-col justify-around w-2/3 sm:w-full items-center">
         <div className="creative-fee bg-[#6B07C633]">
@@ -33,7 +37,9 @@ const TuitionFee = () => {
             <li>Setting up Portfolio</li>
             <li>Practice, Practice, Practice</li>
           </ul>
-          <button className="Register-button bg-[#6B07C6]">Register Now</button>
+          <button className="Register-button bg-[#6B07C6] hover:font-bold hover:bg-[#4905a1]">
+            Register Now
+          </button>
         </div>
         <div className="web-fee bg-[#6B07C6]">
           <h4 className="course-name bg-[#261238]  ">WEB DEVELOPMENT</h4>
@@ -54,7 +60,7 @@ const TuitionFee = () => {
             <li>Single-Page Applications (SPAs)</li>
             <li>Testing and Debugging Web Applications</li>
           </ul>
-          <button className="Register-button bg-black sm:mb-4">
+          <button className="Register-button bg-black hover:bg-slate-900 hover:font-bold sm:mb-4">
             Register Now
           </button>
         </div>

@@ -9,13 +9,14 @@
   padding: 0;
   box-sizing: 0;
   scrollbar-width: 0;
+  scroll-behavior: smooth;
 }
 @layer components {
   body {
     @apply bg-[#151515];
   }
   .top-nav {
-    @apply text-white flex flex-row  w-full justify-between px-20 sm:px-10 py-4 items-center sticky top-0 backdrop-blur-md h-[10vh];
+    @apply text-white flex flex-row  w-full justify-between px-20 z-50 sm:px-10 py-4 items-center sticky top-0 backdrop-blur-md h-[10vh];
   }
   /* .top-nav-links a.active {
     @apply p-1;

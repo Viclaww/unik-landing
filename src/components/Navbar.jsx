@@ -6,43 +6,16 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Navlinks = () => {
   return (
     <>
-      <NavLink
-        to="/"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Home
-      </NavLink>
-      <NavLink
-        to="#courses"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Programs
-      </NavLink>
-      <NavLink
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
+      <NavLink to="/">Home</NavLink>
+      <a href="#courses">Programs</a>
+      <a
+        target="_blank"
+        href="https://drive.google.com/file/d/1tHj8bqeYigyx5Wg2qPo5CERHXnUUBgfs/view?usp=drive_link"
       >
         About Us
-      </NavLink>
-      <NavLink
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        Fees
-      </NavLink>
-      <NavLink
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        FAQ's
-      </NavLink>
+      </a>
+      <a href="#fees">Fees</a>
+      <a href="#faqs">FAQ's</a>
     </>
   );
 };

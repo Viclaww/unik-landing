@@ -724,6 +724,10 @@ hr {
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1228,6 +1232,10 @@ hr {
     margin-top: 5vh;
   }
 
+  .sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1266,6 +1274,10 @@ hr {
 
   .sm\:flex-col-reverse {
     flex-direction: column-reverse;
+  }
+
+  .sm\:justify-start {
+    justify-content: flex-start;
   }
 
   .sm\:justify-center {

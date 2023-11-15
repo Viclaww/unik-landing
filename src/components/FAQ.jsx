@@ -12,7 +12,6 @@ const FAQ = () => {
         <Accordion
           sx={{
             marginBottom: "20px",
-            border: "1px solid #333",
           }}
         >
           <AccordionSummary
@@ -35,18 +34,17 @@ const FAQ = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="subtitle2">
-              In our intensive two-month graphic design training and four-month
-              web development program, you'll acquire a comprehensive skill set
-              tailored to each discipline. The personalized nature of our
-              training ensures focused learning on your individual strengths and
-              areas of improvement.
+              With our two-month graphic design and four-month web development
+              programs, you'll acquire a comprehensive skill set tailored to
+              each discipline. Our personalized training focuses on your
+              individual strengths and areas for improvement.
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={{
             marginBottom: "20px",
-            border: "1px solid #333",
           }}
         >
           <AccordionSummary
@@ -71,10 +69,10 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={{
             marginBottom: "20px",
-            border: "1px solid #333",
           }}
         >
           <AccordionSummary
@@ -99,10 +97,120 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={{
             marginBottom: "20px",
-            border: "1px solid #333",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
+          >
+            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+              What software and tools will I need to participate in the courses?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography variant="subtitle2">
+              We'll guide you through the necessary software and tools during
+              the respective training periods, ensuring you have the right
+              resources for effective learning.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
+          >
+            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+              Where is your office located, and can I enroll online?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography variant="subtitle2">
+              We are located at No 13 Ibom Layout, Off Okoragbor Street along
+              Marian Road, Calabar. Those outside Calabar can also enroll or
+              learn online if they are comfortable doing so. We will assign you
+              a mentor who will guide you through the process.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
+          >
+            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+              Are there any prerequisites for enrolling in the graphic design
+              and web development courses?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography variant="subtitle2">
+              No, there are no specific prerequisites for enrolling in our
+              personalized two-month graphic design and four-month web
+              development training. However, it is recommended that students
+              registering for online courses have access to a laptop or computer
+              and a stable internet connection to facilitate a seamless and
+              productive learning experience.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
+          >
+            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+              Is there any one-on-one mentorship available after completing the
+              program?
+            </Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography variant="subtitle2">
+              Yes, we offer one-on-one mentorship sessions post-completion to
+              provide guidance as you transition into applying your skills
+              professionally.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion
+          sx={{
+            marginBottom: "20px",
           }}
         >
           <AccordionSummary
@@ -127,10 +235,10 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
+
         <Accordion
           sx={{
             marginBottom: "20px",
-            border: "1px solid #333",
           }}
         >
           <AccordionSummary
@@ -142,155 +250,13 @@ const FAQ = () => {
             }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              What is the structure of the courses? Are they self-paced, or do
-              they follow a fixed schedule?
+              What are your payment structures?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="subtitle2">
-              The courses maintain a suggested schedule, but the one-on-one
-              nature allows for flexibility, adapting to your availability.
-              Online sessions facilitate dynamic learning, ensuring you receive
-              personalized attention throughout the specified durations.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          sx={{
-            marginBottom: "20px",
-            border: "1px solid #333",
-          }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-            sx={{
-              borderBottom: "1px solid black",
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              What software and tools will I need to participate in the courses?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography variant="subtitle2">
-              We'll guide you through the necessary software and tools during
-              the respective training periods, ensuring you have the right
-              resources for effective learning within the specified timeframes.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          sx={{
-            marginBottom: "20px",
-            border: "1px solid #333",
-          }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-            sx={{
-              borderBottom: "1px solid black",
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              Is there any one-on-one mentorship available after completing the
-              program?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography variant="subtitle2">
-              Yes, we offer one-on-one mentorship sessions post-completion to
-              provide guidance as you transition into applying your skills
-              professionally.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          sx={{
-            marginBottom: "20px",
-            border: "1px solid #333",
-          }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-            sx={{
-              borderBottom: "1px solid black",
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              How are assessments conducted, and what is the grading or
-              certification process?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography variant="subtitle2">
-              Assessments in the two-month graphic design and four-month web
-              development training may include personalized projects and
-              practical exercises. Certification is awarded upon successful
-              completion of the tailored curriculum within the specified
-              durations.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          sx={{
-            marginBottom: "20px",
-            border: "1px solid #333",
-          }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-            sx={{
-              borderBottom: "1px solid black",
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              Is there any specific hardware or technical requirements for
-              enrolling in the training programs?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography variant="subtitle2">
-              Basic hardware requirements and technical considerations for
-              online training will be discussed at the beginning of each
-              program, ensuring a smooth learning experience.
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-        <Accordion
-          sx={{
-            marginBottom: "20px",
-            border: "1px solid #333",
-          }}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-            sx={{
-              borderBottom: "1px solid black",
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
-              Are there any prerequisites for enrolling in the graphic design
-              and web development courses?
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography variant="subtitle2">
-              No, there are no specific prerequisites for enrolling in our
-              personalized two-month graphic design and four-month web
-              development training. However, it is recommended that students
-              registering for online courses have access to a laptop or computer
-              and a stable internet connection to facilitate a seamless and
-              productive learning experience
+              The payment structure is installment-based, 70% up front, and 30%
+              after a month.
             </Typography>
           </AccordionDetails>
         </Accordion>

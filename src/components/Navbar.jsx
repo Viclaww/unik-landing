@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className={`side-nav flex flex-col bg-black h-[100vh]  z-10   text-white font-bold items-start fixed top-0 py-10 px-5 left-0 ${
+          className={`side-nav flex flex-col bg-black h-[100vh] z-50  text-white font-bold items-start fixed top-0 py-10 px-5 left-0 ${
             isOpen ? "w-3/5 " : "w-0"
           }`}
         >

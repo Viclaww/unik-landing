@@ -12,16 +12,16 @@ const Hero = () => {
           Acquire the essential skills required to thrive in a continually
           evolving tech sphere from industry experts.
         </p>
-        <div className="flex w-full sm:flex-col sm:w-auto relative sm:justify-center justify-between text-xs">
+        <div className="flex w-2/3 sm:flex-col sm:w-auto relative sm:justify-start justify-between text-xs">
           <div className="bg-gradient-to-r  from-[#D00FFC] to-[#3A7DFF] cursor-pointer flex justify-center p-1 sm:w-7/12 rounded-full mt-12 ">
             <a
-              href="#fees"
+              href="https://jeje.li/uBh1v"
               className="bg-[#151515]  hover:opacity-80 px-6 py-3 rounded-full cursor-pointer"
             >
               Enroll Now
             </a>
           </div>
-          <div className="bg-gradient-to-r flex from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full mt-12 ">
+          <div className="bg-gradient-to-r flex from-[#D00FFC] to-[#3A7DFF] p-1 rounded-full  mt-12 sm:mt-3 ">
             <a
               target="_blank"
               href="https://drive.google.com/file/d/1tHj8bqeYigyx5Wg2qPo5CERHXnUUBgfs/view?usp=drive_link"

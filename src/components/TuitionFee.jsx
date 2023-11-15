@@ -37,9 +37,12 @@ const TuitionFee = () => {
             <li>Setting up Portfolio</li>
             <li>Practice, Practice, Practice</li>
           </ul>
-          <button className="Register-button bg-[#6B07C6] hover:font-bold hover:bg-[#4905a1]">
+          <a
+            href="https://jeje.li/uBh1v"
+            className="Register-button bg-[#6B07C6] hover:font-bold hover:bg-[#4905a1]"
+          >
             Register Now
-          </button>
+          </a>
         </div>
         <div className="web-fee bg-[#6B07C6]">
           <h4 className="course-name bg-[#261238]  ">WEB DEVELOPMENT</h4>
@@ -60,9 +63,12 @@ const TuitionFee = () => {
             <li>Single-Page Applications (SPAs)</li>
             <li>Testing and Debugging Web Applications</li>
           </ul>
-          <button className="Register-button bg-black hover:bg-slate-900 hover:font-bold sm:mb-4">
+          <a
+            href="https://jeje.li/uBh1v"
+            className="Register-button bg-black hover:bg-slate-900 hover:font-bold sm:mb-4"
+          >
             Register Now
-          </button>
+          </a>
         </div>
       </div>
     </div>

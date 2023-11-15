@@ -9,10 +9,10 @@ const Hero = () => {
           <span className="font-extrabold">Expert Guidance</span>
         </h2>
         <p className="opacity-70 my-3">
-          Acquire the essential skills required to thrive in continually
-          evolving tech spheres from industry experts.
+          Acquire the essential skills required to thrive in a continually
+          evolving tech sphere from industry experts.
         </p>
-        <div className="flex w-full sm:flex-col sm:w-auto relative justify-between text-xs">
+        <div className="flex w-full sm:flex-col sm:w-auto relative sm:justify-center justify-between text-xs">
           <div className="bg-gradient-to-r  from-[#D00FFC] to-[#3A7DFF] cursor-pointer flex justify-center p-1 sm:w-7/12 rounded-full mt-12 ">
             <a
               href="#fees"

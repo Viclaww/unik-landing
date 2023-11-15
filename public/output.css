@@ -931,6 +931,10 @@ hr {
   border-radius: 0.75rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-\[\#151515\] {
   --tw-bg-opacity: 1;
   background-color: rgb(21 21 21 / var(--tw-bg-opacity));
@@ -1189,29 +1193,9 @@ hr {
   scroll-behavior: smooth;
 }
 
-.hover\:bg-\[\#6a05c1\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(106 5 193 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#6905b8\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(105 5 184 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-\[\#4905a1\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(73 5 161 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-slate-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-slate-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-900:hover {
@@ -1264,40 +1248,16 @@ hr {
     height: 80vh;
   }
 
+  .sm\:w-7\/12 {
+    width: 58.333333%;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
 
   .sm\:w-full {
     width: 100%;
-  }
-
-  .sm\:w-2\/3 {
-    width: 66.666667%;
-  }
-
-  .sm\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .sm\:w-2\/5 {
-    width: 40%;
-  }
-
-  .sm\:w-3\/5 {
-    width: 60%;
-  }
-
-  .sm\:w-7\/12 {
-    width: 58.333333%;
-  }
-
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
-  .sm\:w-6\/12 {
-    width: 50%;
   }
 
   .sm\:flex-col {

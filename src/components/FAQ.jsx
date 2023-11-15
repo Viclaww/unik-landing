@@ -9,13 +9,26 @@ const FAQ = () => {
     <div id="faqs" className="py-[20vh] px-[10vw]  text-4xl bg-white">
       <h3 className="py-5 font-Coiny">FAQ</h3>
       <div>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
-            <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
+            <Typography
+              variant="subtitle1"
+              sx={{
+                fontWeight: "bold",
+              }}
+            >
               What skills and knowledge will I gain from the graphic design and
               web development training courses?
             </Typography>
@@ -30,11 +43,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               Are the courses suitable for beginners, or is prior experience
@@ -50,11 +71,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               How long does it typically take to complete the graphic design or
@@ -70,11 +99,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               Do I receive a certification upon completing the graphic design
@@ -90,11 +127,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion variant="subtitle1 ">
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               What is the structure of the courses? Are they self-paced, or do
@@ -110,11 +155,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               What software and tools will I need to participate in the courses?
@@ -128,11 +181,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               Is there any one-on-one mentorship available after completing the
@@ -140,18 +201,26 @@ const FAQ = () => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography variant="subtitle2" sx={{ fontWeight: "bold" }}>
+            <Typography variant="subtitle2">
               Yes, we offer one-on-one mentorship sessions post-completion to
               provide guidance as you transition into applying your skills
               professionally.
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"
             id="panel1a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               How are assessments conducted, and what is the grading or
@@ -168,11 +237,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
             id="panel2a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               Is there any specific hardware or technical requirements for
@@ -187,11 +264,19 @@ const FAQ = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion
+          sx={{
+            marginBottom: "20px",
+            border: "1px solid #333",
+          }}
+        >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel2a-content"
             id="panel2a-header"
+            sx={{
+              borderBottom: "1px solid black",
+            }}
           >
             <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>
               Are there any prerequisites for enrolling in the graphic design

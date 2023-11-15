@@ -13,10 +13,13 @@ const Course = () => {
             Creative Design
           </h3>
           <p className="w-10/12 opacity-70">
-            Explore and master the art of graphic design as we guide you through
-            a comprehensive curriculum led by industry experts. Unleash your
-            creativity, refine your skills, and stay ahead in the dynamic world
-            of visual communication.
+            This course will take you from beginner to advanced in graphic
+            design. We will cover industry-standard tools, as well as the
+            history, theory, practices, and principles of graphic design. You
+            will learn how to use text and images to communicate effectively
+            with your audience, the road to becoming a creative expert and much
+            more. Don't miss out on this opportunity to gain a valuable new
+            skill - sign up now!
           </p>
           <div className="apps flex w-1/5">
             <img
@@ -45,12 +48,11 @@ const Course = () => {
             Web Development
           </h3>
           <p className="opacity-70">
-            Our comprehensive training program is designed to empower you with
-            the essential skills and knowledge needed to thrive in the
-            ever-evolving landscape of web development. Led by seasoned experts,
-            our courses cover the latest technologies, frameworks, and best
-            practices, ensuring you stay at the forefront of this rapidly
-            changing <field className=""></field>
+            Explore the core pillars of Web Development, including HTML, CSS,
+            and JavaScript, gaining a solid understanding of their roles in
+            crafting intuitive and dynamic web interfaces. Elevate your skills
+            by delving into advanced concepts such as responsive design, user
+            experience optimization, and frameworks/library with React,
           </p>
           <div className="languages-icon flex py-5 ">
             <img

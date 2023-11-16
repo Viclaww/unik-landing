@@ -720,10 +720,6 @@ hr {
   z-index: -10;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -933,10 +929,6 @@ hr {
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .bg-\[\#151515\] {
@@ -1224,16 +1216,28 @@ hr {
     margin-top: 3rem;
   }
 
-  .sm\:mt-\[30vh\] {
-    margin-top: 30vh;
+  .sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .sm\:mt-\[15vh\] {
+    margin-top: 15vh;
   }
 
   .sm\:mt-\[5vh\] {
     margin-top: 5vh;
   }
 
-  .sm\:mt-3 {
-    margin-top: 0.75rem;
+  .sm\:mt-\[20vh\] {
+    margin-top: 20vh;
+  }
+
+  .sm\:mt-\[25vh\] {
+    margin-top: 25vh;
+  }
+
+  .sm\:mt-\[10vh\] {
+    margin-top: 10vh;
   }
 
   .sm\:block {
@@ -1254,6 +1258,14 @@ hr {
 
   .sm\:h-\[80vh\] {
     height: 80vh;
+  }
+
+  .sm\:h-\[70vh\] {
+    height: 70vh;
+  }
+
+  .sm\:h-\[65vh\] {
+    height: 65vh;
   }
 
   .sm\:w-7\/12 {

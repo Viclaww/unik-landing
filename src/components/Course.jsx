@@ -41,7 +41,7 @@ const Course = () => {
         </div>
         <img src={design} alt="" />
       </div>
-      <div className="flex justify-between md:flex-col sm:flex-col my-[20vh] h-[60vh] w-full items-center">
+      <div className="flex justify-between md:flex-col sm:flex-col my-[20vh] h-[60vh] sm:h-[auto] w-full items-center">
         <img className="w-2/5 md:w-full sm:w-full" src={webDev} alt="" />
         <div className="w-1/2 sm:w-full  sm:mt-12  sm:h-2/3 md:w-full ">
           <h3 className="text-[66px] md:text-4xl sm:text-4xl font-extralight py-5 ">

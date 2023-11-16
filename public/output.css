@@ -1070,11 +1070,6 @@ hr {
   padding-bottom: 15vh;
 }
 
-.py-\[20vh\] {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1212,6 +1207,10 @@ hr {
     margin-bottom: 1rem;
   }
 
+  .sm\:mb-\[10vh\] {
+    margin-bottom: 10vh;
+  }
+
   .sm\:mt-12 {
     margin-top: 3rem;
   }
@@ -1220,32 +1219,16 @@ hr {
     margin-top: 0.75rem;
   }
 
-  .sm\:mt-\[15vh\] {
-    margin-top: 15vh;
+  .sm\:mt-\[23vh\] {
+    margin-top: 23vh;
   }
 
   .sm\:mt-\[5vh\] {
     margin-top: 5vh;
   }
 
-  .sm\:mt-\[20vh\] {
-    margin-top: 20vh;
-  }
-
-  .sm\:mt-\[25vh\] {
-    margin-top: 25vh;
-  }
-
   .sm\:mt-\[10vh\] {
     margin-top: 10vh;
-  }
-
-  .sm\:mb-\[10vh\] {
-    margin-bottom: 10vh;
-  }
-
-  .sm\:mt-\[23vh\] {
-    margin-top: 23vh;
   }
 
   .sm\:block {
@@ -1264,16 +1247,12 @@ hr {
     height: 30vh;
   }
 
-  .sm\:h-\[80vh\] {
-    height: 80vh;
-  }
-
-  .sm\:h-\[70vh\] {
-    height: 70vh;
-  }
-
   .sm\:h-\[65vh\] {
     height: 65vh;
+  }
+
+  .sm\:h-\[auto\] {
+    height: auto;
   }
 
   .sm\:w-7\/12 {

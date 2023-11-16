@@ -1244,6 +1244,10 @@ hr {
     margin-bottom: 10vh;
   }
 
+  .sm\:mt-\[23vh\] {
+    margin-top: 23vh;
+  }
+
   .sm\:block {
     display: block;
   }

@@ -1240,6 +1240,10 @@ hr {
     margin-top: 10vh;
   }
 
+  .sm\:mb-\[10vh\] {
+    margin-bottom: 10vh;
+  }
+
   .sm\:block {
     display: block;
   }

@@ -2,7 +2,7 @@ import React from "react";
 import hero from "../assets/hero.png";
 const Hero = () => {
   return (
-    <div className="flex relative sm:flex-col px-32 md:h-[80vh] sm:px-10 font-Monstserrat text-white h-[90vh] sm:h-[65vh] sm:justify-center justify-normal items-center ">
+    <div className="flex relative sm:flex-col  px-32 md:h-[80vh] sm:mb-[10vh] sm:px-10 font-Monstserrat text-white h-[90vh] sm:h-[65vh] sm:justify-center justify-normal items-center ">
       <div className="hero-text w-1/2 sm:w-full flex flex-col h-[50vh] sm:h-[30vh] md:w-full justify-between items-start ">
         <h2 className="text-[60px] md:text-5xl sm:text-3xl leading-[70px] font-thin ">
           Master the Latest Skills with{" "}

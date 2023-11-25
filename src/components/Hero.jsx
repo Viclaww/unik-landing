@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="flex w-2/3 sm:flex-col sm:w-auto relative sm:justify-start justify-between text-xs">
           <div className="bg-gradient-to-r  from-[#D00FFC] to-[#3A7DFF] cursor-pointer flex justify-center p-1 sm:w-7/12 rounded-full mt-12 ">
             <a
-              href="https://jeje.li/uBh1v"
+              href="https://forms.gle/8t6msQc7a7iSLMHs7"
               className="bg-[#151515]  hover:opacity-80 px-6 py-3 rounded-full cursor-pointer"
             >
               Enroll Now

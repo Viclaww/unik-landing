@@ -38,7 +38,7 @@ const TuitionFee = () => {
             <li>Practice, Practice, Practice</li>
           </ul>
           <a
-            href="https://jeje.li/uBh1v"
+            href="https://forms.gle/8t6msQc7a7iSLMHs7"
             className="Register-button bg-[#6B07C6] hover:font-bold hover:bg-[#4905a1]"
           >
             Register Now
@@ -64,7 +64,7 @@ const TuitionFee = () => {
             <li>Testing and Debugging Web Applications</li>
           </ul>
           <a
-            href="https://jeje.li/uBh1v"
+            href="https://forms.gle/8t6msQc7a7iSLMHs7"
             className="Register-button bg-black hover:bg-slate-900 hover:font-bold sm:mb-4"
           >
             Register Now
